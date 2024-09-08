@@ -1,5 +1,11 @@
 {
   "item.sways_mod.sapphire": "Sapphire",
   "item.sways_mod.raw_sapphire": "Raw Sapphire",
-  "creativetab.sways_tab": "Sways Mod Tab"
+  "block.sways_mod.sapphire_block": "Block of Sapphire",
+  "block.sways_mod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.sways_mod.sapphire_ore": "Sapphire Ore",
+  "block.sways_mod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.sways_mod.end_stone_sapphire_ore": "End Stone Sapphire Ore",
+  "block.sways_mod.nether_sapphire_ore": "Nether Sapphire Ore",
+  "creativetab.sways_tab": "Sways Mod"
 }

@@ -1,6 +1,7 @@
 package net.josuemorales.swaysmod.item;
 
 import net.josuemorales.swaysmod.SwaysMod;
+import net.josuemorales.swaysmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -14,20 +15,20 @@ public class ModCreativeModTabs {
             Registries.CREATIVE_MODE_TAB, SwaysMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> SWAYS_TAB =
-            CREATIVE_MODE_TABS.register("sways_tab",
-                                        () -> CreativeModeTab.builder()
-                                                .icon(() -> new ItemStack(
-                                                        ModItems.SAPPHIRE.get()))
-                                                .title(Component.translatable(
-                                                        "creativetab.sways_tab"))
-                                                .displayItems(
-                                                        ((pParameters, pOutput) -> {
-                                                            pOutput.accept(
-                                                                    new ItemStack(ModItems.SAPPHIRE.get()));
-                                                            pOutput.accept(
-                                                                    new ItemStack(ModItems.RAW_SAPPHIRE.get()));
-                                                        }))
-                                                .build());
+            CREATIVE_MODE_TABS.register("sways_tab", () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
+                    .title(Component.translatable("creativetab.sways_tab"))
+                    .displayItems(((pParameters, pOutput) -> {
+                        pOutput.accept(new ItemStack(ModItems.SAPPHIRE.get()));
+                        pOutput.accept(new ItemStack(ModItems.RAW_SAPPHIRE.get()));
+                        pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_BLOCK.get()));
+                        pOutput.accept(new ItemStack(ModBlocks.RAW_SAPPHIRE_BLOCK.get()));
+                        pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_ORE.get()));
+                        pOutput.accept(new ItemStack(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get()));
+                        pOutput.accept(new ItemStack(ModBlocks.NETHER_SAPPHIRE_ORE.get()));
+                        pOutput.accept(new ItemStack(ModBlocks.END_STONE_SAPPHIRE_ORE.get()));
+                    }))
+                    .build());
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

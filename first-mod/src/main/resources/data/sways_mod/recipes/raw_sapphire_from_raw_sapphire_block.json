@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "raw_sapphire",
+  "ingredients": [
+    {
+      "item": "sways_mod:raw_sapphire_block"
+    }
+  ],
+  "result": {
+    "id": "sways_mod:raw_sapphire",
+    "count": 9
+  }
+}
