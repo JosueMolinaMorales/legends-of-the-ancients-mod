@@ -1,6 +1,9 @@
 package net.josuemorales.swaysmod;
 
 import com.mojang.logging.LogUtils;
+import net.josuemorales.swaysmod.item.ModCreativeModTabs;
+import net.josuemorales.swaysmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -26,6 +29,11 @@ public class SwaysMod {
     public SwaysMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        // Register the Deferred Register for creative tabs
+        ModCreativeModTabs.register(modEventBus);
+        // Register the Deferred Register for items
+        ModItems.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -46,7 +54,11 @@ public class SwaysMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        // If the tab is the Ingredients tab, add the sapphire to it
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.RAW_SAPPHIRE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
