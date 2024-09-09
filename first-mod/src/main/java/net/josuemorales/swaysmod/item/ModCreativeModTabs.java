@@ -28,6 +28,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(new ItemStack(ModBlocks.NETHER_SAPPHIRE_ORE.get()));
                         pOutput.accept(new ItemStack(ModBlocks.END_STONE_SAPPHIRE_ORE.get()));
                         pOutput.accept(new ItemStack(ModItems.METAL_DETECTOR.get()));
+                        pOutput.accept(new ItemStack(ModItems.STRAWBERRY.get()));
+                        pOutput.accept(new ItemStack(ModItems.PINE_CONE.get()));
                     }))
                     .build());
 
