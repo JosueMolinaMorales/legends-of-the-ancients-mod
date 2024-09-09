@@ -10,5 +10,6 @@
   "block.sways_mod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.sways_mod.end_stone_sapphire_ore": "End Stone Sapphire Ore",
   "block.sways_mod.nether_sapphire_ore": "Nether Sapphire Ore",
-  "creativetab.sways_tab": "Sways Mod"
+  "creativetab.sways_tab": "Sways Mod",
+  "tooltip.sways_mod.metal_detector.tooltip": "Finds valuables underground"
 }
