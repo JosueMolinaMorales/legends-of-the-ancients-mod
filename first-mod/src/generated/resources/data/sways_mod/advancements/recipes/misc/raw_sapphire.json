@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_sapphire_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sways_mod:raw_sapphire_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sways_mod:raw_sapphire"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_sapphire_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sways_mod:raw_sapphire"
+    ]
+  }
+}

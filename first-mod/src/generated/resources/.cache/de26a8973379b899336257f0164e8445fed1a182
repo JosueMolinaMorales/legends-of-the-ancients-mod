@@ -1,0 +1,4 @@
+// 1.20.6	2024-09-08T23:55:51.444813	Tags for minecraft:block mod id sways_mod
+fe87a1b8ff59d69b839e7d274a6c4ce7a7ffe8a6 data/minecraft/tags/blocks/mineable/pickaxe.json
+e781f643bf9bde68a6ce48e03b19b29e974b1a12 data/minecraft/tags/blocks/needs_iron_tool.json
+81ded77f6efd4c265ee6ffca68728e2a5b1894f2 data/sways_mod/tags/blocks/metal_detector_valuables.json
