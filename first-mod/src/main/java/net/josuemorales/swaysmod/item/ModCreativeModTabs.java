@@ -39,6 +39,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get()));
                         pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_BUTTON.get()));
                         pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_SLAB.get()));
+                        pOutput.accept(new ItemStack(ModItems.SAPPHIRE_STAFF.get()));
                     }))
                     .build());
 
