@@ -1,7 +1,16 @@
-// 1.20.6	2024-09-08T23:55:51.445412	Loot Tables
+// 1.20.6	2024-09-09T19:49:24.2384282	Loot Tables
 7f6b78f21a5be1251147af584a857999cba515b7 data/sways_mod/loot_tables/blocks/deepslate_sapphire_ore.json
 9787d055b5bbf0d405348fdd808237f77f4e76e5 data/sways_mod/loot_tables/blocks/end_stone_sapphire_ore.json
 fa6ef9bc54bf5916cb805e37e4474eedf919e4f7 data/sways_mod/loot_tables/blocks/nether_sapphire_ore.json
 a7f121fba4fc20d7ca9de27de13e6944e25512f0 data/sways_mod/loot_tables/blocks/raw_sapphire_block.json
 285e15b28cb8c48500943f15890afe90df5140e1 data/sways_mod/loot_tables/blocks/sapphire_block.json
+d3a1a209f2380362c2fd8c35dda5d61eb05af0af data/sways_mod/loot_tables/blocks/sapphire_button.json
+2313d4cd23a9c6b3d2b063aad7049cf216bc4c57 data/sways_mod/loot_tables/blocks/sapphire_door.json
+576d9f8e6b55e3623cabf546f625a9e033cc18ae data/sways_mod/loot_tables/blocks/sapphire_fence.json
+429f6836d5eacf593337ec4a5ceedc899e3479de data/sways_mod/loot_tables/blocks/sapphire_fence_gate.json
 abf545cae728a9ecff7d967232e6427f36de9f56 data/sways_mod/loot_tables/blocks/sapphire_ore.json
+dc16a8fe3f7b60c7e8f87b5ccd8ff59c13e5d187 data/sways_mod/loot_tables/blocks/sapphire_pressure_plate.json
+d5260efc422bf57919147688fc1f2e5550037b30 data/sways_mod/loot_tables/blocks/sapphire_slab.json
+79bdbe372fc37a7e3a44f4e645be1fb09e536a4c data/sways_mod/loot_tables/blocks/sapphire_stairs.json
+63d7a0f7dbb0010b9b0c6fde1c99078d714c066c data/sways_mod/loot_tables/blocks/sapphire_trap_door.json
+3230aa91dbc0aa8f2f7c986037ea6b4e2734960c data/sways_mod/loot_tables/blocks/sapphire_wall.json

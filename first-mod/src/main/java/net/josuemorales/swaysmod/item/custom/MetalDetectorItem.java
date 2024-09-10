@@ -21,7 +21,7 @@ public class MetalDetectorItem extends Item {
     public MetalDetectorItem(Properties properties) {
         super(properties);
     }
-
+    
     @Override
     public @NotNull InteractionResult useOn(UseOnContext pContext) {
         if (pContext.getLevel().isClientSide()) {
