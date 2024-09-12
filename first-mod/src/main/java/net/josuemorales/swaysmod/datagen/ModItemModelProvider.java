@@ -27,7 +27,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PINE_CONE);
         simpleItem(ModItems.STRAWBERRY);
         simpleItem(ModItems.SAPPHIRE_ROD);
-        simpleItem(ModItems.SAPPHIRE_SWORD);
+//        simpleItem(ModItems.SAPPHIRE_SWORD);
 
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
 
@@ -79,7 +79,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> block) {
         return withExistingParent(block.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                        new ResourceLocation(SwaysMod.MOD_ID, "item/" + block.getId().getPath()));
+                new ResourceLocation(SwaysMod.MOD_ID, "item/" + block.getId().getPath()));
     }
 
 }
