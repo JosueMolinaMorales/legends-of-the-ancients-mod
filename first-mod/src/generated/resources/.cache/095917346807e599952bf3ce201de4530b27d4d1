@@ -1,4 +1,4 @@
-// 1.20.6	2024-09-09T20:09:20.8891223	Item Models: sways_mod
+// 1.20.6	2024-09-10T22:51:31.185882	Item Models: sways_mod
 52f38277561ef3aa19a7518c3f2a6c80d5acfbd2 assets/sways_mod/models/item/metal_detector.json
 1626ff2c7e2010a7fa4bba038799ad32310901e5 assets/sways_mod/models/item/pine_cone.json
 9bd34cca191a0424921a53d0d4223eb42bc79a57 assets/sways_mod/models/item/raw_sapphire.json
@@ -8,8 +8,10 @@ ec44224052644656f66d7a23aeb7a8a4bc25639a assets/sways_mod/models/item/sapphire.j
 69106620a4dfd0a819e68452963ad478be850ed6 assets/sways_mod/models/item/sapphire_fence.json
 ec14b59dff74478cd457587a1bea0f13373c6b59 assets/sways_mod/models/item/sapphire_fence_gate.json
 3d91445fd9116f935878c71eefffa047f2e62f4f assets/sways_mod/models/item/sapphire_pressure_plate.json
+e8b54b144912bc9960c37f8027c27d154f1bbf89 assets/sways_mod/models/item/sapphire_rod.json
 058336971268ece82bc3f9c91d8be9cdbd39ff5b assets/sways_mod/models/item/sapphire_slab.json
 cd108ade65bf2dc9df1866686e2b162b6e3d154f assets/sways_mod/models/item/sapphire_stairs.json
+893e9ffd09d151439579bb4ed8cb9ee94f8e0a3e assets/sways_mod/models/item/sapphire_sword.json
 f6fc28dd892551bc92058c4e748893fc4ae9dc97 assets/sways_mod/models/item/sapphire_trap_door.json
 4e70507dbc2d149882420dde2f1487e2eafd9f7d assets/sways_mod/models/item/sapphire_wall.json
 19d3b603362d76b1bd4e97a1e4671ec4041a1e90 assets/sways_mod/models/item/strawberry.json

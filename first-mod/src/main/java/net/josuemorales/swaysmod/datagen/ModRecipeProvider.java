@@ -6,9 +6,11 @@ import net.josuemorales.swaysmod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -23,15 +25,48 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     protected static void oreSmelting(
-            RecipeOutput pRecipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup
+            @NotNull RecipeOutput pRecipeOutput,
+            List<ItemLike> pIngredients,
+            @NotNull RecipeCategory pCategory,
+            @NotNull ItemLike pResult,
+            float pExperience,
+            int pCookingTime,
+            @NotNull String pGroup
     ) {
-        oreCooking(pRecipeOutput, RecipeSerializer.SMELTING_RECIPE, SmeltingRecipe::new, pIngredients, pCategory, pResult, pExperience, pCookingTime, pGroup, "_from_smelting");
+        oreCooking(
+                pRecipeOutput,
+                RecipeSerializer.SMELTING_RECIPE,
+                SmeltingRecipe::new,
+                pIngredients,
+                pCategory,
+                pResult,
+                pExperience,
+                pCookingTime,
+                pGroup,
+                "_from_smelting"
+        );
     }
 
     protected static void oreBlasting(
-            RecipeOutput pRecipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup
+            @NotNull RecipeOutput pRecipeOutput,
+            List<ItemLike> pIngredients,
+            @NotNull RecipeCategory pCategory,
+            @NotNull ItemLike pResult,
+            float pExperience,
+            int pCookingTime,
+            @NotNull String pGroup
     ) {
-        oreCooking(pRecipeOutput, RecipeSerializer.BLASTING_RECIPE, BlastingRecipe::new, pIngredients, pCategory, pResult, pExperience, pCookingTime, pGroup, "_from_blasting");
+        oreCooking(pRecipeOutput,
+                RecipeSerializer.BLASTING_RECIPE,
+                BlastingRecipe::new,
+                pIngredients,
+                pCategory,
+                pResult,
+                pExperience,
+                pCookingTime,
+                pGroup,
+                "_from_blasting"
+        );
     }
 
     private static <T extends AbstractCookingRecipe> void oreCooking(
@@ -55,9 +90,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     @Override
-    protected void buildRecipes(RecipeOutput pRecipeOutput) {
-        oreBlasting(pRecipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25f, 100, "sapphire");
-        oreSmelting(pRecipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25f, 200, "sapphire");
+    protected void buildRecipes(@NotNull RecipeOutput pRecipeOutput) {
+        oreBlasting(pRecipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC,
+                ModItems.SAPPHIRE.get(), 0.25f, 100, "sapphire");
+        oreSmelting(pRecipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC,
+                ModItems.SAPPHIRE.get(), 0.25f, 200, "sapphire");
 
 
         // Sapphire to Sapphire Block
@@ -89,6 +126,37 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.RAW_SAPPHIRE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.RAW_SAPPHIRE_BLOCK.get()), has(ModBlocks.RAW_SAPPHIRE_BLOCK.get()))
                 .save(pRecipeOutput);
+
+        // Creating a Sapphire Staff
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SAPPHIRE_STAFF.get(), 1)
+                .pattern("#S#")
+                .pattern("S#S")
+                .pattern(" # ")
+                .define('#', ModItems.SAPPHIRE_ROD.get())
+                .define('S', ModItems.SAPPHIRE.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pRecipeOutput);
+
+        // Creating a Sapphire Rod
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_ROD.get(), 1)
+                .pattern("#")
+                .pattern("#")
+                .pattern("#")
+                .define('#', ModItems.SAPPHIRE.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pRecipeOutput);
+
+        // Sapphire Sword
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SAPPHIRE_SWORD.get(), 1)
+                .pattern("#")
+                .pattern("#")
+                .pattern("S")
+                .define('#', ModItems.SAPPHIRE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pRecipeOutput);
+
+
     }
 
 

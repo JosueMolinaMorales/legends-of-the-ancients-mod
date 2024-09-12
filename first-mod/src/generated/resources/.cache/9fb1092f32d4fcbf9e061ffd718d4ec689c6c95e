@@ -1,4 +1,5 @@
-// 1.20.6	2024-09-09T00:04:39.882053	Recipes
+// 1.20.6	2024-09-10T22:51:31.185044	Recipes
+ce927060c0c49fbc82b0ac37054ebf51409bda47 data/sways_mod/advancements/recipes/combat/sapphire_sword.json
 7cbf09e67000213eb54b6ff296fa9f3edc10acea data/sways_mod/advancements/recipes/misc/raw_sapphire.json
 b91033eff430f30036ced7a13463e76c29a8ce12 data/sways_mod/advancements/recipes/misc/raw_sapphire_block.json
 7c5070eba564dcaeb71009774bc33476acaccd84 data/sways_mod/advancements/recipes/misc/sapphire.json
@@ -13,6 +14,8 @@ cb72d19da588297d194d6d8c204fbfe76e75cd32 data/sways_mod/advancements/recipes/mis
 d6adb6e7f7bcd35fc86bc6ff6dde1e4d250582fd data/sways_mod/advancements/recipes/misc/sapphire_from_smelting_nether_sapphire_ore.json
 577be240419b102c2c6f06a01799c1192d15ba88 data/sways_mod/advancements/recipes/misc/sapphire_from_smelting_raw_sapphire.json
 21da84428706824efc4c60dc0253a51550abe5cf data/sways_mod/advancements/recipes/misc/sapphire_from_smelting_sapphire_ore.json
+988b509b87ab1c60fe8030a3bdc51e65cf5d35b6 data/sways_mod/advancements/recipes/misc/sapphire_rod.json
+b18255959a4db7f06ef1f57961eb1c649297ac6e data/sways_mod/advancements/recipes/tools/sapphire_staff.json
 ed779910868a053a8647f9be6935f113819cd9a4 data/sways_mod/recipes/raw_sapphire.json
 21ab65c96d5fd551e134fe715a9aaf07e60f41d3 data/sways_mod/recipes/raw_sapphire_block.json
 d3497ffa3ca0b972e5fc66d5e57e49f4db38c071 data/sways_mod/recipes/sapphire.json
@@ -27,3 +30,6 @@ c30ca028126aedf9a7a493837cba903a45c7cd28 data/sways_mod/recipes/sapphire_from_sm
 db314cad2d40051637bf6ffc4134be15642d25f5 data/sways_mod/recipes/sapphire_from_smelting_nether_sapphire_ore.json
 e60d308be11e240ea9ac8719d24b1d99f0db07df data/sways_mod/recipes/sapphire_from_smelting_raw_sapphire.json
 ef298decba259a11a561eb0aeefa18db92098fb6 data/sways_mod/recipes/sapphire_from_smelting_sapphire_ore.json
+dab5805716d844886e470fd736d5f85fada8be8a data/sways_mod/recipes/sapphire_rod.json
+cf8a55753010fb7b866c6ea20e921202e23505c2 data/sways_mod/recipes/sapphire_staff.json
+3c511e9d95909d2925d7fb77e8f3a64c15984d4b data/sways_mod/recipes/sapphire_sword.json
