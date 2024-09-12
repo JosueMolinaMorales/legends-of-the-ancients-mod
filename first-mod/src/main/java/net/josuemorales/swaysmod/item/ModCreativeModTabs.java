@@ -14,8 +14,8 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(
             Registries.CREATIVE_MODE_TAB, SwaysMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> SWAYS_TAB =
-            CREATIVE_MODE_TABS.register("sways_tab", () -> CreativeModeTab.builder()
+    public static final RegistryObject<CreativeModeTab> SWAYS_TAB = CREATIVE_MODE_TABS.register("sways_tab",
+            () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.sways_tab"))
                     .displayItems(((pParameters, pOutput) -> {

@@ -21,7 +21,7 @@ public class MetalDetectorItem extends Item {
     public MetalDetectorItem(Properties properties) {
         super(properties);
     }
-    
+
     @Override
     public @NotNull InteractionResult useOn(UseOnContext pContext) {
         if (pContext.getLevel().isClientSide()) {
@@ -57,12 +57,14 @@ public class MetalDetectorItem extends Item {
     }
 
     @Override
-    public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+    public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents,
+            TooltipFlag pTooltipFlag) {
         pTooltipComponents.add(Component.translatable("tooltip.sways_mod.metal_detector.tooltip"));
     }
 
     private void outputValuableCoordinates(BlockPos below, Player player, Block block) {
-        player.sendSystemMessage(Component.literal("Found " + I18n.get(block.getDescriptionId()) + " at " + "(" + below.getX() + ", " + below.getY() + ", " + below.getZ() + ")"));
+        player.sendSystemMessage(Component.literal("Found " + I18n.get(block.getDescriptionId()) + " at " + "("
+                + below.getX() + ", " + below.getY() + ", " + below.getZ() + ")"));
     }
 
     private boolean isValuableBlock(BlockState state) {

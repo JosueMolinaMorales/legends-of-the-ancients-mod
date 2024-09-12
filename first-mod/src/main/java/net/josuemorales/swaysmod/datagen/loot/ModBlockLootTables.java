@@ -27,10 +27,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
 
-        this.add(ModBlocks.SAPPHIRE_ORE.get(), block -> createCopperLikeOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
-        this.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
-        this.add(ModBlocks.NETHER_SAPPHIRE_ORE.get(), block -> createCopperLikeOreDrops(ModBlocks.NETHER_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
-        this.add(ModBlocks.END_STONE_SAPPHIRE_ORE.get(), block -> createCopperLikeOreDrops(ModBlocks.END_STONE_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
+        this.add(ModBlocks.SAPPHIRE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
+        this.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
+        this.add(ModBlocks.NETHER_SAPPHIRE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.NETHER_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
+        this.add(ModBlocks.END_STONE_SAPPHIRE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.END_STONE_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
 
         this.dropSelf(ModBlocks.SAPPHIRE_STAIRS.get());
         this.dropSelf(ModBlocks.SAPPHIRE_BUTTON.get());
@@ -51,8 +55,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 this.applyExplosionDecay(block,
                         LootItem.lootTableItem(item)
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(2.0f, 5.0f)))
-                                .apply(ApplyBonusCount.addOreBonusCount(Enchantments.FORTUNE))
-                ));
+                                .apply(ApplyBonusCount.addOreBonusCount(Enchantments.FORTUNE))));
     }
 
     @Override

@@ -23,7 +23,7 @@ import org.slf4j.Logger;
 @Mod(SwaysMod.MOD_ID)
 public class SwaysMod {
     // Define mod id in a common place for everything to reference
-    public static final  String MOD_ID = "sways_mod";
+    public static final String MOD_ID = "sways_mod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -41,14 +41,14 @@ public class SwaysMod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
-        // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
+        // Register our mod's ForgeConfigSpec so that Forge can create and load the
+        // config file for us
         ModLoadingContext.get()
                 .registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -72,7 +72,8 @@ public class SwaysMod {
 
     }
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with
+    // You can use EventBusSubscriber to automatically register all static methods
+    // in the class annotated with
     // @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {

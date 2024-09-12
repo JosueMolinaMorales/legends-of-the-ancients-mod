@@ -28,3 +28,4 @@ run-data/
 run/
 
 **/.DS_STORE
+.vscode/
