@@ -1,8 +1,7 @@
-// 1.20.6	2024-09-10T22:51:31.185044	Recipes
+// 1.20.6	2024-09-13T12:40:23.918049	Recipes
 ce927060c0c49fbc82b0ac37054ebf51409bda47 data/sways_mod/advancements/recipes/combat/sapphire_sword.json
 7cbf09e67000213eb54b6ff296fa9f3edc10acea data/sways_mod/advancements/recipes/misc/raw_sapphire.json
 b91033eff430f30036ced7a13463e76c29a8ce12 data/sways_mod/advancements/recipes/misc/raw_sapphire_block.json
-7c5070eba564dcaeb71009774bc33476acaccd84 data/sways_mod/advancements/recipes/misc/sapphire.json
 6e3108833f6d6208f2f9a598e8fa1b423c068d78 data/sways_mod/advancements/recipes/misc/sapphire_block.json
 ebdcd10c6fe9836e78fcf1798f66e40a8825b5db data/sways_mod/advancements/recipes/misc/sapphire_from_blasting_deepslate_sapphire_ore.json
 10e23811eea06853135367494d48d213849cb4c8 data/sways_mod/advancements/recipes/misc/sapphire_from_blasting_end_stone_sapphire_ore.json
@@ -18,7 +17,6 @@ d6adb6e7f7bcd35fc86bc6ff6dde1e4d250582fd data/sways_mod/advancements/recipes/mis
 b18255959a4db7f06ef1f57961eb1c649297ac6e data/sways_mod/advancements/recipes/tools/sapphire_staff.json
 ed779910868a053a8647f9be6935f113819cd9a4 data/sways_mod/recipes/raw_sapphire.json
 21ab65c96d5fd551e134fe715a9aaf07e60f41d3 data/sways_mod/recipes/raw_sapphire_block.json
-d3497ffa3ca0b972e5fc66d5e57e49f4db38c071 data/sways_mod/recipes/sapphire.json
 575cff751ab160276fee35161bb39e15d23c841f data/sways_mod/recipes/sapphire_block.json
 1047821152bb3ac8f01df62a33fcad8247144cfe data/sways_mod/recipes/sapphire_from_blasting_deepslate_sapphire_ore.json
 e5f16794ba4ba229b02d761828c13f7db8759bc6 data/sways_mod/recipes/sapphire_from_blasting_end_stone_sapphire_ore.json

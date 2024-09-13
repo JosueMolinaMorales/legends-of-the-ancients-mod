@@ -28,7 +28,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.STRAWBERRY);
         simpleItem(ModItems.SAPPHIRE_ROD);
 //        simpleItem(ModItems.SAPPHIRE_SWORD);
-
+        handheldItem(ModItems.SAPPHIRE_PICKAXE);
+        handheldItem(ModItems.SAPPHIRE_AXE);
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
 
         fenceItem(ModBlocks.SAPPHIRE_FENCE, ModBlocks.SAPPHIRE_BLOCK);
@@ -45,6 +46,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(), new ResourceLocation("item/generated"))
+                .texture("layer0", new ResourceLocation(SwaysMod.MOD_ID, "item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(), new ResourceLocation("item/handheld"))
                 .texture("layer0", new ResourceLocation(SwaysMod.MOD_ID, "item/" + item.getId().getPath()));
     }
 
@@ -75,6 +81,7 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .texture("wall", new ResourceLocation(SwaysMod.MOD_ID,
                         "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
+
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> block) {
         return withExistingParent(block.getId().getPath(),

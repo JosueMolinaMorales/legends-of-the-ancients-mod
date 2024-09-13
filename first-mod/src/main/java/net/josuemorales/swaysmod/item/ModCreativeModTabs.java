@@ -42,6 +42,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(new ItemStack(ModItems.SAPPHIRE_STAFF.get()));
                         pOutput.accept(new ItemStack(ModItems.SAPPHIRE_ROD.get()));
                         pOutput.accept(new ItemStack(ModItems.SAPPHIRE_SWORD.get()));
+                        pOutput.accept(new ItemStack(ModItems.SAPPHIRE_PICKAXE.get()));
+                        pOutput.accept(new ItemStack(ModItems.SAPPHIRE_AXE.get()));
                     }))
                     .build());
 

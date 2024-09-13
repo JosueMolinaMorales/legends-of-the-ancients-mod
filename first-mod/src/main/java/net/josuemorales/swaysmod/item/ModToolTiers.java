@@ -9,9 +9,9 @@ public class ModToolTiers {
 
     public static final ForgeTier SAPPHIRE = new ForgeTier(
             1500,
-            1.5f,
+            10f,
             7,
-            15,
+            25,
             ModTags.Blocks.NEEDS_SAPPHIRE_TOOL,
             () -> Ingredient.of(ModItems.SAPPHIRE.get()),
             ModTags.Blocks.INCORRECT_FOR_SAPPHIRE_TOOL

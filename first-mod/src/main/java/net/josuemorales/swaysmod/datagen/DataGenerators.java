@@ -32,5 +32,6 @@ public class DataGenerators {
         generator.addProvider(event.includeServer(),
                 new ModItemTagProvider(packOutput, lookupProvider, tagGenerator.contentsGetter(), existingFileHelper));
 
+        generator.addProvider(event.includeServer(), new ModWorldGenProvider(packOutput, lookupProvider));
     }
 }

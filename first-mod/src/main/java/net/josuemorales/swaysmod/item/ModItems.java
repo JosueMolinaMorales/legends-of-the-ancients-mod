@@ -3,9 +3,7 @@ package net.josuemorales.swaysmod.item;
 import net.josuemorales.swaysmod.SwaysMod;
 import net.josuemorales.swaysmod.item.custom.FuelItem;
 import net.josuemorales.swaysmod.item.custom.MetalDetectorItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tiers;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -32,6 +30,14 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(ModToolTiers.SAPPHIRE, new Item.Properties()
                     .attributes(SwordItem.createAttributes(Tiers.DIAMOND, 4, -2.4F))));
+
+    public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.SAPPHIRE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 1, -3.2F))));
+
+    public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
+            () -> new AxeItem(ModToolTiers.SAPPHIRE, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.SAPPHIRE, 6, -3F))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
