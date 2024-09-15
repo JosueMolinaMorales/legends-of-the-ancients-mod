@@ -1,7 +1,0 @@
-// 1.20.6	2024-09-15T12:17:14.940164	Registries
-a299beaf5a375ad4960c16e05b949f40e0e94fe6 data/lota/forge/biome_modifier/add_rune_stone_ore.json
-835fa12c23becd16260a880c23507ab41e1eda96 data/lota/forge/biome_modifier/add_tree_sacred_grove.json
-c0f4cbf90aa83171cbc5fd8f6ebff70e08af76c2 data/lota/worldgen/configured_feature/rune_stone_ore.json
-e7a2d8c2d37c09559ffa11ea6f2c19013a9ac63e data/lota/worldgen/configured_feature/sacred_grove.json
-62973a217f10b09f2e8da2dd2e791259396e3665 data/lota/worldgen/placed_feature/rune_stone_ore_placed.json
-8b3cede6cf87e178c74f475d81c8688099af53c2 data/lota/worldgen/placed_feature/sacred_grove_placed.json

@@ -1,9 +1,0 @@
-// 1.20.6	2024-09-15T11:48:00.199532	Loot Tables
-5715f3bac9a450d7842503a2f09fbdc004c44704 data/lota/loot_tables/blocks/rune_stone_ore.json
-8c0d077d7b71651d3adf012c5b2db010d4f640bb data/lota/loot_tables/blocks/sacred_grove_leaves.json
-ad4e659f7606abbf94188c3fb761d769055b8d4b data/lota/loot_tables/blocks/sacred_grove_log.json
-8a22f48a91a27d6629a998bc9823b3dd686592bd data/lota/loot_tables/blocks/sacred_grove_planks.json
-bb6328862bc15d8b503c7bccda441e9eb0eb30b7 data/lota/loot_tables/blocks/sacred_grove_sapling.json
-9f16ad61bf0bcc7f6f69740ad2d4b8c64aabe898 data/lota/loot_tables/blocks/sacred_grove_wood.json
-003f45c80a0cd76c9d2c2f44a971b3ca71b33725 data/lota/loot_tables/blocks/stripped_sacred_grove_log.json
-62fc95ab713a27f4430e2a4c7573bda1c135f225 data/lota/loot_tables/blocks/stripped_sacred_grove_wood.json
