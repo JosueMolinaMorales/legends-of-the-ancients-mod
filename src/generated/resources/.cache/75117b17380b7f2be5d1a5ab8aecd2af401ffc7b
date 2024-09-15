@@ -1,0 +1,6 @@
+// 1.20.6	2024-09-14T19:40:55.958184	Tags for minecraft:block mod id lota
+cb28339548a9f5c43f81c4715df14c62d24020ad data/lota/tags/blocks/metal_detector_valuables.json
+5fd00719ef71230668462cd1a8f40ac832784bca data/minecraft/tags/blocks/logs_that_burn.json
+a072a9bd609994c041042244fe4264a046cdb215 data/minecraft/tags/blocks/mineable/pickaxe.json
+a072a9bd609994c041042244fe4264a046cdb215 data/minecraft/tags/blocks/needs_iron_tool.json
+027f18bcaebcf9790f93a03cbf7c7c1bfe2fbb8b data/minecraft/tags/blocks/planks.json

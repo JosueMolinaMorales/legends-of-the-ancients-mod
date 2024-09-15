@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "sways_mod:block/sapphire_block",
-    "side": "sways_mod:block/sapphire_block",
-    "top": "sways_mod:block/sapphire_block"
-  }
-}

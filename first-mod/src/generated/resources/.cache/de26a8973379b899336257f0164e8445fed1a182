@@ -1,7 +1,0 @@
-// 1.20.6	2024-09-09T19:49:24.2364287	Tags for minecraft:block mod id sways_mod
-037137686487e28286f3521dad9169e686a3028d data/minecraft/tags/blocks/fences.json
-220b540a7fac32e70eca34330cd881ce90f14849 data/minecraft/tags/blocks/fence_gates.json
-fe87a1b8ff59d69b839e7d274a6c4ce7a7ffe8a6 data/minecraft/tags/blocks/mineable/pickaxe.json
-e781f643bf9bde68a6ce48e03b19b29e974b1a12 data/minecraft/tags/blocks/needs_iron_tool.json
-e6b417fee0a9705822f8dd9e3c9ebc485880fdd7 data/minecraft/tags/blocks/walls.json
-81ded77f6efd4c265ee6ffca68728e2a5b1894f2 data/sways_mod/tags/blocks/metal_detector_valuables.json

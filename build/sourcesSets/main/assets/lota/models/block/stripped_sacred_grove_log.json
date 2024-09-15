@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "lota:block/stripped_pine_log_top",
+    "side": "lota:block/stripped_sacred_grove_log"
+  }
+}

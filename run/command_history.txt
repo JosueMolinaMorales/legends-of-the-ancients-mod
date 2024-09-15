@@ -1,0 +1,10 @@
+/gamemode sp
+/gamemode spectator
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/time set day

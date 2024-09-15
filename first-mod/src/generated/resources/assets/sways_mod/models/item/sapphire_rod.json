@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "sways_mod:item/sapphire_rod"
-  }
-}

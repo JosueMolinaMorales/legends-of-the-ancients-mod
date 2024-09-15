@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_right",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "bottom": "sways_mod:block/sapphire_door_bottom",
-    "top": "sways_mod:block/sapphire_door_top"
-  }
-}
