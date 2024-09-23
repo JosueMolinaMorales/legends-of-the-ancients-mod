@@ -19,23 +19,6 @@ public class ModCreativeModTabs {
                     .icon(() -> new ItemStack(ModItems.RUNE_STONE_FRAGMENT.get()))
                     .title(Component.translatable("creativetab.sways_tab"))
                     .displayItems(((pParameters, pOutput) -> {
-//                        pOutput.accept(new ItemStack(ModItems.SAPPHIRE.get()));
-//                        pOutput.accept(new ItemStack(ModItems.RAW_SAPPHIRE.get()));
-//                        pOutput.accept(new ItemStack(ModItems.METAL_DETECTOR.get()));
-//                        pOutput.accept(new ItemStack(ModItems.STRAWBERRY.get()));
-//                        pOutput.accept(new ItemStack(ModItems.PINE_CONE.get()));
-//                        pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_FENCE.get()));
-//                        pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_FENCE_GATE.get()));
-//                        pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_WALL.get()));
-//                        pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_DOOR.get()));
-//                        pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_TRAP_DOOR.get()));
-//                        pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get()));
-//                        pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_BUTTON.get()));
-//                        pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_SLAB.get()));
-//                        pOutput.accept(new ItemStack(ModItems.SAPPHIRE_ROD.get()));
-//                        pOutput.accept(new ItemStack(ModItems.SAPPHIRE_SWORD.get()));
-                        pOutput.accept(new ItemStack(ModItems.SAPPHIRE_PICKAXE.get()));
-//                        pOutput.accept(new ItemStack(ModItems.SAPPHIRE_AXE.get()));
                         pOutput.accept(new ItemStack(ModBlocks.RUNE_STONE_ORE.get()));
                         pOutput.accept(new ItemStack(ModItems.RUNE_STONE_FRAGMENT.get()));
                         pOutput.accept(new ItemStack(ModItems.RUNE_STONE.get()));

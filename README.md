@@ -45,9 +45,6 @@ We welcome contributions to Legends of the Ancients! If you have ideas for new f
 
 Legends of the Ancients is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for more details.
 
-## Contact
-
-For questions or feedback, please contact us at [your-email@example.com].
 
 ---
 

@@ -22,22 +22,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.RUNE_STONE_ORE);
 
-//        stairsBlock((StairBlock) ModBlocks.SAPPHIRE_STAIRS.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
-//        slabBlock((SlabBlock) ModBlocks.SAPPHIRE_SLAB.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()),
-//                blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
-//
-//        buttonBlock((ButtonBlock) ModBlocks.SAPPHIRE_BUTTON.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
-//        pressurePlateBlock((PressurePlateBlock) ModBlocks.SAPPHIRE_PRESSURE_PLATE.get(),
-//                blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
-//
-//        fenceBlock((FenceBlock) ModBlocks.SAPPHIRE_FENCE.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
-//        fenceGateBlock((FenceGateBlock) ModBlocks.SAPPHIRE_FENCE_GATE.get(),
-//                blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
-//        wallBlock((WallBlock) ModBlocks.SAPPHIRE_WALL.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
-//        doorBlockWithRenderType((DoorBlock) ModBlocks.SAPPHIRE_DOOR.get(), modLoc("block/sapphire_door_bottom"),
-//                modLoc("block/sapphire_door_top"), "cutout");
-//        trapdoorBlockWithRenderType((TrapDoorBlock) ModBlocks.SAPPHIRE_TRAP_DOOR.get(),
-//                modLoc("block/sapphire_trapdoor"), true, "cutout");
+
         logBlock(((RotatedPillarBlock) ModBlocks.SACRED_GROVE_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.SACRED_GROVE_WOOD.get()), blockTexture(ModBlocks.SACRED_GROVE_LOG.get()), blockTexture(ModBlocks.SACRED_GROVE_LOG.get()));
 

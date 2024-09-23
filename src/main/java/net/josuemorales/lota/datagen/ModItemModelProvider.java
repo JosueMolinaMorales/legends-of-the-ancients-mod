@@ -22,29 +22,6 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.RUNE_STONE_FRAGMENT);
         simpleItem(ModItems.RUNE_STONE);
-//        simpleItem(ModItems.SAPPHIRE);
-//        simpleItem(ModItems.RAW_SAPPHIRE);
-//
-//        simpleItem(ModItems.METAL_DETECTOR);
-//        simpleItem(ModItems.PINE_CONE);
-//        simpleItem(ModItems.STRAWBERRY);
-//        simpleItem(ModItems.SAPPHIRE_ROD);
-//
-//        handheldItem(ModItems.SAPPHIRE_SWORD);
-        handheldItem(ModItems.SAPPHIRE_PICKAXE);
-//        handheldItem(ModItems.SAPPHIRE_AXE);
-//        simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
-
-//        fenceItem(ModBlocks.SAPPHIRE_FENCE, ModBlocks.SAPPHIRE_BLOCK);
-//        buttonItem(ModBlocks.SAPPHIRE_BUTTON, ModBlocks.SAPPHIRE_BLOCK);
-//        wallItem(ModBlocks.SAPPHIRE_WALL, ModBlocks.SAPPHIRE_BLOCK);
-//
-//        evenSimplerBlockItem(ModBlocks.SAPPHIRE_STAIRS);
-//        evenSimplerBlockItem(ModBlocks.SAPPHIRE_SLAB);
-//        evenSimplerBlockItem(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
-//        evenSimplerBlockItem(ModBlocks.SAPPHIRE_FENCE_GATE);
-//
-//        trapdoorItem(ModBlocks.SAPPHIRE_TRAP_DOOR);
         saplingItem(ModBlocks.SACRED_GROVE_SAPLING);
     }
 

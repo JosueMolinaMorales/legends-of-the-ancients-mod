@@ -35,21 +35,7 @@ public class ModBiomeModifiers {
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.SACRED_GROVE_PLACED_KEY)),
                 GenerationStep.Decoration.VEGETAL_DECORATION
         ));
-//        context.register(ADD_SAPPHIRE_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-//                biomes.getOrThrow(BiomeTags.IS_OVERWORLD), // biomes.getOrThrow(Biomes.BEACH) to spawn in a specific biome
-//                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.SAPPHIRE_ORE_PLACED_KEY)),
-//                GenerationStep.Decoration.UNDERGROUND_ORES
-//        ));
-//        context.register(ADD_NETHER_SAPPHIRE_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-//                biomes.getOrThrow(BiomeTags.IS_NETHER), // biomes.getOrThrow(Biomes.BEACH) to spawn in a specific biome
-//                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NETHER_SAPPHIRE_ORE_PLACED_KEY)),
-//                GenerationStep.Decoration.UNDERGROUND_ORES
-//        ));
-//        context.register(ADD_END_SAPPHIRE_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-//                biomes.getOrThrow(BiomeTags.IS_END), // biomes.getOrThrow(Biomes.BEACH) to spawn in a specific biome
-//                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.END_SAPPHIRE_ORE_PLACED_KEY)),
-//                GenerationStep.Decoration.UNDERGROUND_ORES
-//        ));
+
     }
 
     private static ResourceKey<BiomeModifier> registerKey(String name) {
